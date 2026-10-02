@@ -80,6 +80,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--fixation); outl
 }
 .pill.primary { background: var(--ink); color: #000; }
 .pill.quiet { border: 1px solid var(--hair); color: var(--ink); }
+.cta { align-items: center; }
+.cta.closing { margin-top: 34px; }
+.store-badge { display: inline-flex; border-radius: 10px; }
+.store-badge img { display: block; height: 52px; width: auto; }
 
 /* Video */
 .video { margin-block: 40px 90px; }
